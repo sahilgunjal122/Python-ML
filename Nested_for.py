@@ -101,6 +101,34 @@ for i in range(3):
 '''
 
 
+"""
+    1 2 3
+    2 3 4
+    3 4 5 
+
+    for i in range(3):
+    num=i+1
+    for j in range(3):
+        print(num,end=" ")
+        num+=1
+    print()
+"""
+
+
+'''
+    1 2 3
+    2 4 6
+    3 6 9
+'''
+num=1
+for i in range(3):
+    for j in range(3):
+        print(num,end=" ")
+        num+=1
+    print()
+
+
+
 
 
 
